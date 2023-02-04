@@ -1,17 +1,17 @@
 address_parts = [1, "Road", "Town", "Greater London", "E14 7RT"]
 
-address = " "
+address = [" "]
 
-for item in address_parts:
-    address = address + str(item) + " "
+# for item in address_parts:
+#     address = address + str(item) + " "
 
-print(address)
+print(address_parts)
 # Strings are imutable- they can't be changed
 
 # This is inefficient use join() str method instead
 
 
-concatenated_address = ", ".join(address_parts)
+# concatenated_address = ", ".join(address_parts)
 print(concatenated_address)
 
 print('Aaliyah says "hi!" to the class')
